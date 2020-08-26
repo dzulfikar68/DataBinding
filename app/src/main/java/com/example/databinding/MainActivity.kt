@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), CustomInterface {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        //init activity
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val viewModel: MainViewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
